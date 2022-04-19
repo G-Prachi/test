@@ -1,0 +1,615 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "stars",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlanMyTripIntent",
+                    "slots": [
+                        {
+                            "name": "toCity",
+                            "type": "AMAZON.City",
+                            "samples": [
+                                "i want to visit {toCity}",
+                                "i'd like to go to {toCity} ",
+                                "{toCity} ",
+                                "I'd like to visit {toCity} ",
+                                "we're going to {toCity} ",
+                                "i will leave on {travelDate} ",
+                                "I will go to {toCity}  on {travelDate} "
+                            ]
+                        },
+                        {
+                            "name": "fromCity",
+                            "type": "AMAZON.City",
+                            "samples": [
+                                "{fromCity} ",
+                                "leaving from {fromCity} ",
+                                "from {fromCity} "
+                            ]
+                        },
+                        {
+                            "name": "travelDate",
+                            "type": "AMAZON.DATE",
+                            "samples": [
+                                "{travelDate} ",
+                                "my trips starts {travelDate} ",
+                                "leaving on {travelDate} "
+                            ]
+                        },
+                        {
+                            "name": "travelTime",
+                            "type": "AMAZON.TIME",
+                            "samples": [
+                                "{travelTimePrefix} {travelTime} ",
+                                "at {travelTime}"
+                            ]
+                        },
+                        {
+                            "name": "travelTimePrefix",
+                            "type": "travelTimePrefix"
+                        },
+                        {
+                            "name": "returnDateTime",
+                            "type": "LIST_OF_ACTIVITIES"
+                        },
+                        {
+                            "name": "returnDate",
+                            "type": "AMAZON.DATE"
+                        },
+                        {
+                            "name": "returnTimePrefix",
+                            "type": "travelTimePrefix"
+                        },
+                        {
+                            "name": "returnTime",
+                            "type": "AMAZON.TIME"
+                        },
+                        {
+                            "name": "isAdvanceRequired",
+                            "type": "LIST_OF_ACTIVITIES"
+                        },
+                        {
+                            "name": "advanceAmount",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "remarks",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "book  ticket from {fromCity} two {toCity} ",
+                        "book my ticket from {fromCity} to {toCity} ",
+                        "book  ticket from {fromCity} to {toCity} ",
+                        "change my source to {fromCity}",
+                        "book ticket",
+                        "book flight from {fromCity} to {toCity} {travelTime} and return on {returnDate}",
+                        "book flight from {fromCity} to {toCity} at {travelTime} and return {returnTimePrefix} {returnTime}",
+                        "book flight from {fromCity} to {toCity} {travelTime} and return {returnTimePrefix} {returnTime}",
+                        "change my traveldate to {travelDate}",
+                        "change my destination to {toCity}",
+                        "tell STARS to book my ticket",
+                        "book  ticket from {fromCity} to {toCity} on {travelDate}",
+                        "book my ticket from {fromCity} to {toCity} on {travelDate}",
+                        "book my  ticket on {travelDate}",
+                        "book my tickets",
+                        "book my ticket",
+                        "I'm going on a trip on {travelDate} ",
+                        "i want to visit {toCity} ",
+                        "I want to travel from {fromCity} to {toCity} on {travelDate} ",
+                        "I'll go to {toCity} on the {travelDate} "
+                    ]
+                },
+                {
+                    "name": "bookTicketCondition",
+                    "slots": [
+                        {
+                            "name": "fromCity",
+                            "type": "AMAZON.City"
+                        },
+                        {
+                            "name": "toCity",
+                            "type": "AMAZON.City"
+                        },
+                        {
+                            "name": "travelDate",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "book my ticket from {fromCity} two {toCity} on {travelDate} as per last booking",
+                        "book my ticket from {fromCity} to {toCity} as per last booking on {travelDate}",
+                        "book my ticket from {fromCity} to {toCity}  as per last booking",
+                        "book my ticket from {fromCity} to {toCity} on {travelDate} as per last booking"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_ACTIVITIES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "no"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yes"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bicycling"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bike"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "biking"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "camp"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "camping"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hike"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hiking"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "race"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "run"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shopping"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ski"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "skiing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "surf"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "surfing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "swim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "swimming"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visit relatives"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visit with friends"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visit with my relatives"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "concert"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "play"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "travelTimePrefix",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "before"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "after"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "arrival until "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "not before"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "PlanMyTripIntent",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.335070780764"
+                    },
+                    "slots": [
+                        {
+                            "name": "toCity",
+                            "type": "AMAZON.City",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1162780729786.1432530920282"
+                            }
+                        },
+                        {
+                            "name": "fromCity",
+                            "type": "AMAZON.City",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1162780729786.1143025724798"
+                            }
+                        },
+                        {
+                            "name": "travelDate",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1162780729786.801508773141"
+                            }
+                        },
+                        {
+                            "name": "travelTime",
+                            "type": "AMAZON.TIME",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.227583401498.533552289122"
+                            }
+                        },
+                        {
+                            "name": "travelTimePrefix",
+                            "type": "travelTimePrefix",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "returnDateTime",
+                            "type": "LIST_OF_ACTIVITIES",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1182559726592.94984310467"
+                            }
+                        },
+                        {
+                            "name": "returnDate",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "returnTimePrefix",
+                            "type": "travelTimePrefix",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "returnTime",
+                            "type": "AMAZON.TIME",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "isAdvanceRequired",
+                            "type": "LIST_OF_ACTIVITIES",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1351537509252.1384615976788"
+                            }
+                        },
+                        {
+                            "name": "advanceAmount",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "remarks",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.242316843879.554991614988"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "bookTicketCondition",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "fromCity",
+                            "type": "AMAZON.City",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.768049350095.1101555846373"
+                            }
+                        },
+                        {
+                            "name": "toCity",
+                            "type": "AMAZON.City",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.768049350095.449812623077"
+                            }
+                        },
+                        {
+                            "name": "travelDate",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.880965808465.1314512729520"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1162780729786.1432530920282",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Okay Where you want to go?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1162780729786.1143025724798",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "you need your ticket to be booked from?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "From where You want to book your ticket?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1162780729786.801508773141",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "when you want to go?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "when you want to leave?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "what date  you flying out?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.858581636529",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do you want to book ticket from {fromCity} to {toCity} on {travelDate}"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1384073930581.890866996308",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do you want to book ticket from {fromCity} to {toCity} on {travelDate}"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.335070780764",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do  you want to book ticket from {fromCity} to {toCity} on {travelDate}   ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.160885826786.662605930191",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Any remarks ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.227583401498.533552289122",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please provide the Travel Time"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.242316843879.554991614988",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Any Remarks?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.593432796597.1444071970642",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do You want return ticket . If yes please provide Date and Time"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1182559726592.94984310467",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do you want return ticket ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.667293832842.1275960270990",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Return Time ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.667293832842.279288394611",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Return Date ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.768049350095.449812623077",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": " Where you want to go?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.768049350095.1101555846373",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "you need your ticket to be booked from ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.880965808465.1314512729520",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "when you want to go?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1351537509252.1137786058348",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please provide advance amount"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1351537509252.1384615976788",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do you want to add advance?"
+                    }
+                ]
+            }
+        ]
+    }
+}
