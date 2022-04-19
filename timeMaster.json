@@ -1,0 +1,399 @@
+[
+    
+        {
+            "timeId": 102,
+            "preferTime": "According to Flight Time"
+        },
+        {
+            "timeId": 1,
+            "preferTime": "Anytime"
+        },
+        {
+            "timeId": 103,
+            "preferTime": "No Preference"
+        },
+        {
+            "timeId": 5,
+            "preferTime": "01:00"
+        },
+        {
+            "timeId": 30,
+            "preferTime": "01:15"
+        },
+        {
+            "timeId": 31,
+            "preferTime": "01:30"
+        },
+        {
+            "timeId": 32,
+            "preferTime": "01:45"
+        },
+        {
+            "timeId": 6,
+            "preferTime": "02:00"
+        },
+        {
+            "timeId": 33,
+            "preferTime": "02:15"
+        },
+        {
+            "timeId": 34,
+            "preferTime": "02:30"
+        },
+        {
+            "timeId": 35,
+            "preferTime": "02:45"
+        },
+        {
+            "timeId": 7,
+            "preferTime": "03:00"
+        },
+        {
+            "timeId": 36,
+            "preferTime": "03:15"
+        },
+        {
+            "timeId": 37,
+            "preferTime": "03:30"
+        },
+        {
+            "timeId": 38,
+            "preferTime": "03:45"
+        },
+        {
+            "timeId": 9,
+            "preferTime": "04:00"
+        },
+        {
+            "timeId": 39,
+            "preferTime": "04:15"
+        },
+        {
+            "timeId": 40,
+            "preferTime": "04:30"
+        },
+        {
+            "timeId": 41,
+            "preferTime": "04:45"
+        },
+        {
+            "timeId": 10,
+            "preferTime": "05:00"
+        },
+        {
+            "timeId": 42,
+            "preferTime": "05:15"
+        },
+        {
+            "timeId": 43,
+            "preferTime": "05:30"
+        },
+        {
+            "timeId": 44,
+            "preferTime": "05:45"
+        },
+        {
+            "timeId": 11,
+            "preferTime": "06:00"
+        },
+        {
+            "timeId": 45,
+            "preferTime": "06:15"
+        },
+        {
+            "timeId": 46,
+            "preferTime": "06:30"
+        },
+        {
+            "timeId": 47,
+            "preferTime": "06:45"
+        },
+        {
+            "timeId": 12,
+            "preferTime": "07:00"
+        },
+        {
+            "timeId": 48,
+            "preferTime": "07:15"
+        },
+        {
+            "timeId": 49,
+            "preferTime": "07:30"
+        },
+        {
+            "timeId": 50,
+            "preferTime": "07:45"
+        },
+        {
+            "timeId": 13,
+            "preferTime": "08:00"
+        },
+        {
+            "timeId": 51,
+            "preferTime": "08:15"
+        },
+        {
+            "timeId": 52,
+            "preferTime": "08:30"
+        },
+        {
+            "timeId": 53,
+            "preferTime": "08:45"
+        },
+        {
+            "timeId": 14,
+            "preferTime": "09:00"
+        },
+        {
+            "timeId": 54,
+            "preferTime": "09:15"
+        },
+        {
+            "timeId": 55,
+            "preferTime": "09:30"
+        },
+        {
+            "timeId": 56,
+            "preferTime": "09:45"
+        },
+        {
+            "timeId": 15,
+            "preferTime": "10:00"
+        },
+        {
+            "timeId": 57,
+            "preferTime": "10:15"
+        },
+        {
+            "timeId": 58,
+            "preferTime": "10:30"
+        },
+        {
+            "timeId": 59,
+            "preferTime": "10:45"
+        },
+        {
+            "timeId": 16,
+            "preferTime": "11:00"
+        },
+        {
+            "timeId": 60,
+            "preferTime": "11:15"
+        },
+        {
+            "timeId": 61,
+            "preferTime": "11:30"
+        },
+        {
+            "timeId": 62,
+            "preferTime": "11:45"
+        },
+        {
+            "timeId": 17,
+            "preferTime": "12:00"
+        },
+        {
+            "timeId": 99,
+            "preferTime": "12:15"
+        },
+        {
+            "timeId": 100,
+            "preferTime": "12:30"
+        },
+        {
+            "timeId": 101,
+            "preferTime": "12:45"
+        },
+        {
+            "timeId": 18,
+            "preferTime": "13:00"
+        },
+        {
+            "timeId": 66,
+            "preferTime": "13:15"
+        },
+        {
+            "timeId": 67,
+            "preferTime": "13:30"
+        },
+        {
+            "timeId": 68,
+            "preferTime": "13:45"
+        },
+        {
+            "timeId": 19,
+            "preferTime": "14:00"
+        },
+        {
+            "timeId": 69,
+            "preferTime": "14:15"
+        },
+        {
+            "timeId": 70,
+            "preferTime": "14:30"
+        },
+        {
+            "timeId": 71,
+            "preferTime": "14:45"
+        },
+        {
+            "timeId": 20,
+            "preferTime": "15:00"
+        },
+        {
+            "timeId": 72,
+            "preferTime": "15:15"
+        },
+        {
+            "timeId": 73,
+            "preferTime": "15:30"
+        },
+        {
+            "timeId": 74,
+            "preferTime": "15:45"
+        },
+        {
+            "timeId": 21,
+            "preferTime": "16:00"
+        },
+        {
+            "timeId": 75,
+            "preferTime": "16:15"
+        },
+        {
+            "timeId": 76,
+            "preferTime": "16:30"
+        },
+        {
+            "timeId": 77,
+            "preferTime": "16:45"
+        },
+        {
+            "timeId": 22,
+            "preferTime": "17:00"
+        },
+        {
+            "timeId": 78,
+            "preferTime": "17:15"
+        },
+        {
+            "timeId": 79,
+            "preferTime": "17:30"
+        },
+        {
+            "timeId": 80,
+            "preferTime": "17:45"
+        },
+        {
+            "timeId": 23,
+            "preferTime": "18:00"
+        },
+        {
+            "timeId": 81,
+            "preferTime": "18:15"
+        },
+        {
+            "timeId": 82,
+            "preferTime": "18:30"
+        },
+        {
+            "timeId": 83,
+            "preferTime": "18:45"
+        },
+        {
+            "timeId": 24,
+            "preferTime": "19:00"
+        },
+        {
+            "timeId": 84,
+            "preferTime": "19:15"
+        },
+        {
+            "timeId": 85,
+            "preferTime": "19:30"
+        },
+        {
+            "timeId": 86,
+            "preferTime": "19:45"
+        },
+        {
+            "timeId": 25,
+            "preferTime": "20:00"
+        },
+        {
+            "timeId": 87,
+            "preferTime": "20:15"
+        },
+        {
+            "timeId": 88,
+            "preferTime": "20:30"
+        },
+        {
+            "timeId": 89,
+            "preferTime": "20:45"
+        },
+        {
+            "timeId": 26,
+            "preferTime": "21:00"
+        },
+        {
+            "timeId": 90,
+            "preferTime": "21:15"
+        },
+        {
+            "timeId": 91,
+            "preferTime": "21:30"
+        },
+        {
+            "timeId": 92,
+            "preferTime": "21:45"
+        },
+        {
+            "timeId": 27,
+            "preferTime": "22:00"
+        },
+        {
+            "timeId": 93,
+            "preferTime": "22:15"
+        },
+        {
+            "timeId": 94,
+            "preferTime": "22:30"
+        },
+        {
+            "timeId": 95,
+            "preferTime": "22:45"
+        },
+        {
+            "timeId": 28,
+            "preferTime": "23:00"
+        },
+        {
+            "timeId": 96,
+            "preferTime": "23:15"
+        },
+        {
+            "timeId": 97,
+            "preferTime": "23:30"
+        },
+        {
+            "timeId": 98,
+            "preferTime": "23:45"
+        },
+        {
+            "timeId": 29,
+            "preferTime": "00:00"
+        },
+        {
+            "timeId": 63,
+            "preferTime": "00:15"
+        },
+        {
+            "timeId": 64,
+            "preferTime": "00:30"
+        },
+        {
+            "timeId": 65,
+            "preferTime": "00:45"
+        }
+]

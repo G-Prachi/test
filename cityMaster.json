@@ -1,0 +1,499 @@
+[
+    
+            {
+                "recordStatus": "NEW",
+                "cityName": "A Coruna",
+                "cityCode": "A001",
+                "countryCode": "ES",
+                "cityId": 1,
+                "countryName": "Spain",
+                "countryId": 206
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "A Estrada",
+                "cityCode": "A002",
+                "countryCode": "ES",
+                "cityId": 2,
+                "countryName": "Spain",
+                "countryId": 206
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "A.Vellalapatti",
+                "cityCode": "A445",
+                "countryCode": "IN",
+                "cityId": 3,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aachara",
+                "cityCode": "A709",
+                "countryCode": "IN",
+                "cityId": 4,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aachen",
+                "cityCode": "A003",
+                "countryCode": "DE",
+                "cityId": 5,
+                "countryName": "Germany",
+                "countryId": 85
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aadesar",
+                "cityCode": "A327",
+                "countryCode": "IN",
+                "cityId": 6,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aadsar",
+                "cityCode": "A328",
+                "countryCode": "IN",
+                "cityId": 7,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aalborg",
+                "cityCode": "A004",
+                "countryCode": "DK",
+                "cityId": 8,
+                "countryName": "Denmark",
+                "countryId": 60
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aalen",
+                "cityCode": "A005",
+                "countryCode": "DE",
+                "cityId": 9,
+                "countryName": "Germany",
+                "countryId": 85
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aalesund",
+                "cityCode": "A006",
+                "countryCode": "NO",
+                "cityId": 10,
+                "countryName": "Norway",
+                "countryId": 168
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aarhus",
+                "cityCode": "A007",
+                "countryCode": "DK",
+                "cityId": 11,
+                "countryName": "Denmark",
+                "countryId": 60
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "aaroli",
+                "cityCode": "A329",
+                "countryCode": "IN",
+                "cityId": 12,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abano Terme",
+                "cityCode": "A008",
+                "countryCode": "IT",
+                "cityId": 13,
+                "countryName": "Italy",
+                "countryId": 112
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abbiategrasso",
+                "cityCode": "A673",
+                "countryCode": "IT",
+                "cityId": 14,
+                "countryName": "Italy",
+                "countryId": 112
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abbots Salford",
+                "cityCode": "A009",
+                "countryCode": "GB",
+                "cityId": 15,
+                "countryName": "United Kingdom",
+                "countryId": 231
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abbotsford",
+                "cityCode": "A010",
+                "countryCode": "CA",
+                "cityId": 16,
+                "countryName": "Canada",
+                "countryId": 40
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aberdeen",
+                "cityCode": "A011",
+                "countryCode": "US",
+                "cityId": 17,
+                "countryName": "United States",
+                "countryId": 232
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aberdeen",
+                "cityCode": "A012",
+                "countryCode": "GB",
+                "cityId": 18,
+                "countryName": "United Kingdom",
+                "countryId": 231
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aberdeen",
+                "cityCode": "A674",
+                "countryCode": "US",
+                "cityId": 19,
+                "countryName": "United States",
+                "countryId": 232
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aberdeen Airport",
+                "cityCode": "A013",
+                "countryCode": "GB",
+                "cityId": 20,
+                "countryName": "United Kingdom",
+                "countryId": 231
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aberfeldy",
+                "cityCode": "A014",
+                "countryCode": "GB",
+                "cityId": 21,
+                "countryName": "United Kingdom",
+                "countryId": 231
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Aberfoyle",
+                "cityCode": "A015",
+                "countryCode": "GB",
+                "cityId": 22,
+                "countryName": "United Kingdom",
+                "countryId": 231
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abhayapuri",
+                "cityCode": "A446",
+                "countryCode": "IN",
+                "cityId": 23,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abhore",
+                "cityCode": "A330",
+                "countryCode": "IN",
+                "cityId": 24,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abilene",
+                "cityCode": "A016",
+                "countryCode": "US",
+                "cityId": 25,
+                "countryName": "United States",
+                "countryId": 232
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abington",
+                "cityCode": "A017",
+                "countryCode": "GB",
+                "cityId": 26,
+                "countryName": "United Kingdom",
+                "countryId": 231
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abiramam",
+                "cityCode": "A447",
+                "countryCode": "IN",
+                "cityId": 27,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abohar",
+                "cityCode": "A448",
+                "countryCode": "IN",
+                "cityId": 28,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abrantes",
+                "cityCode": "A018",
+                "countryCode": "PT",
+                "cityId": 29,
+                "countryName": "Portugal",
+                "countryId": 179
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abruzzo",
+                "cityCode": "A019",
+                "countryCode": "IT",
+                "cityId": 30,
+                "countryName": "Italy",
+                "countryId": 112
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abu Darshan",
+                "cityCode": "A331",
+                "countryCode": "IN",
+                "cityId": 31,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abu Dhabi",
+                "cityCode": "A020",
+                "countryCode": "AE",
+                "cityId": 32,
+                "countryName": "United Arab Emirates",
+                "countryId": 230
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abu Road",
+                "cityCode": "A332",
+                "countryCode": "IN",
+                "cityId": 33,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abu Simbel",
+                "cityCode": "A021",
+                "countryCode": "EG",
+                "cityId": 34,
+                "countryName": "Egypt",
+                "countryId": 66
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Abuja",
+                "cityCode": "A022",
+                "countryCode": "NG",
+                "cityId": 35,
+                "countryName": "Nigeria",
+                "countryId": 164
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Acapulco",
+                "cityCode": "A023",
+                "countryCode": "MX",
+                "cityId": 36,
+                "countryName": "Mexico",
+                "countryId": 146
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achabal",
+                "cityCode": "A449",
+                "countryCode": "IN",
+                "cityId": 37,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achalpur",
+                "cityCode": "A450",
+                "countryCode": "IN",
+                "cityId": 38,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achampudur",
+                "cityCode": "A451",
+                "countryCode": "IN",
+                "cityId": 39,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achanta",
+                "cityCode": "A333",
+                "countryCode": "IN",
+                "cityId": 40,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Acharapakkam",
+                "cityCode": "A452",
+                "countryCode": "IN",
+                "cityId": 41,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Acharavi",
+                "cityCode": "A024",
+                "countryCode": "GR",
+                "cityId": 42,
+                "countryName": "Greece",
+                "countryId": 88
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Acharipallam",
+                "cityCode": "A453",
+                "countryCode": "IN",
+                "cityId": 43,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achhalda",
+                "cityCode": "A454",
+                "countryCode": "IN",
+                "cityId": 44,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achhnera",
+                "cityCode": "A455",
+                "countryCode": "IN",
+                "cityId": 45,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achipatti",
+                "cityCode": "A456",
+                "countryCode": "IN",
+                "cityId": 46,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Achnasheen",
+                "cityCode": "A025",
+                "countryCode": "GB",
+                "cityId": 47,
+                "countryName": "United Kingdom",
+                "countryId": 231
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Acireale",
+                "cityCode": "A026",
+                "countryCode": "IT",
+                "cityId": 48,
+                "countryName": "Italy",
+                "countryId": 112
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Acqui Terme",
+                "cityCode": "A027",
+                "countryCode": "IT",
+                "cityId": 49,
+                "countryName": "Italy",
+                "countryId": 112
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Acworth",
+                "cityCode": "A028",
+                "countryCode": "US",
+                "cityId": 50,
+                "countryName": "United States",
+                "countryId": 232
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Adalaj",
+                "cityCode": "A457",
+                "countryCode": "IN",
+                "cityId": 51,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Adampur",
+                "cityCode": "A458",
+                "countryCode": "IN",
+                "cityId": 52,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Adana",
+                "cityCode": "A029",
+                "countryCode": "TR",
+                "cityId": 53,
+                "countryName": "Turkey",
+                "countryId": 224
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Adari",
+                "cityCode": "A459",
+                "countryCode": "IN",
+                "cityId": 54,
+                "countryName": "India",
+                "countryId": 105
+            },
+            {
+                "recordStatus": "NEW",
+                "cityName": "Addanki",
+                "cityCode": "A334",
+                "countryCode": "IN",
+                "cityId": 55,
+                "countryName": "India",
+                "countryId": 105
+            }
+			]
+			
